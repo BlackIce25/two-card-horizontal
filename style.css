@@ -8,7 +8,8 @@
 
 body {
     background-color: gray;
-    background-image: url('assets/background.png');
+    background-image: url("mushroom.jpg");
+    background-size:cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -20,17 +21,28 @@ body {
   margin: 80px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:rgb(255, 255, 255);
+  background-image:url("mushroom.jpg");
   border-radius: 30px;
+}
+
+.card1{
+  background-image: url("assets/brownbackground2.png");
+  background-size: cover;
+}
+.card2{
+  background-image: url("assets/greenbackground2.png");
+  background-size: cover;
 }
 
 h1{
   margin-bottom: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 600;
-  text-align: center;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+margin-left: 30px;
   font-size: 45px;
-  position: relative; top: 40px;
+  position: relative; 
+  top: 10px;
   color: #27a59c;
   
 }
@@ -38,10 +50,10 @@ h1{
 h2{
   margin-top: 0px;
   padding-top: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 200;
-  text-align: center;
-  position: relative; 
+  font-family: "Mirza", serif;
+  font-weight: 600;
+  font-style: normal;
+  position: center; 
   top: 40px;
   color: #027691;
 } 
